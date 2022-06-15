@@ -19,7 +19,7 @@ public class ExtentManager{
 	
 	public static void setUpExtentReport() {
 		
-		sparkReporter=new ExtentSparkReporter("ExtentReport.html");
+		sparkReporter=new ExtentSparkReporter("ExtentReport\\ExtentReport.html");
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(sparkReporter);
 		
