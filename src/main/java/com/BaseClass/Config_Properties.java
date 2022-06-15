@@ -12,7 +12,6 @@ public class Config_Properties implements IAutoConsts{
 	
 	public static void loadConfigValues() throws Throwable {
 		
-		 US_URL = new FileLib().readProprertyData(Prop_Path, "us_url");
 		 UK_URL = new FileLib().readProprertyData(Prop_Path, "uk_url");
 		 AU_URL = new FileLib().readProprertyData(Prop_Path, "au_url");
 		 REG_US_URL = new FileLib().readProprertyData(Prop_Path, "reg_us_url");
