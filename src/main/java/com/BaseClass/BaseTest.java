@@ -35,7 +35,7 @@ public class BaseTest implements IAutoConsts {
 	}
 	
 
-	@Parameters("browserName")
+	@Parameters("Browser")
 	@BeforeMethod(groups = "Regression")
 	public static void launchApp(String browserName) throws Throwable { //
 		

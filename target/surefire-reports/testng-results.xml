@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41469" started-at="2022-06-14T14:29:20 IST" finished-at="2022-06-14T14:30:01 IST">
+  <suite name="Suite" duration-ms="16394" started-at="2022-06-15T16:35:30 IST" finished-at="2022-06-15T16:35:47 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41469" started-at="2022-06-14T14:29:20 IST" finished-at="2022-06-14T14:30:01 IST">
+    <test name="Test" duration-ms="16394" started-at="2022-06-15T16:35:30 IST" finished-at="2022-06-15T16:35:47 IST">
       <class name="com.IFHTests.RegistrationPageTest">
-        <test-method status="PASS" signature="extentReport()[pri:0, instance:com.IFHTests.RegistrationPageTest@1fc2b765]" name="extentReport" is-config="true" duration-ms="152" started-at="2022-06-14T14:29:20 IST" finished-at="2022-06-14T14:29:20 IST">
+        <test-method status="PASS" signature="extentReport()[pri:0, instance:com.IFHTests.RegistrationPageTest@43738a82]" name="extentReport" is-config="true" duration-ms="193" started-at="2022-06-15T16:35:30 IST" finished-at="2022-06-15T16:35:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReport -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.IFHTests.RegistrationPageTest@1fc2b765]" name="launchApp" is-config="true" duration-ms="3726" started-at="2022-06-14T14:29:20 IST" finished-at="2022-06-14T14:29:24 IST">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.IFHTests.RegistrationPageTest@43738a82]" name="launchApp" is-config="true" duration-ms="7249" started-at="2022-06-15T16:35:30 IST" finished-at="2022-06-15T16:35:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="PersonalAccRegistrationPageTest()[pri:0, instance:com.IFHTests.RegistrationPageTest@1fc2b765]" name="PersonalAccRegistrationPageTest" duration-ms="37042" started-at="2022-06-14T14:29:24 IST" finished-at="2022-06-14T14:30:01 IST">
+        <test-method status="PASS" signature="PersonalAccRegistrationPageTest()[pri:0, instance:com.IFHTests.RegistrationPageTest@43738a82]" name="PersonalAccRegistrationPageTest" duration-ms="7738" started-at="2022-06-15T16:35:38 IST" finished-at="2022-06-15T16:35:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PersonalAccRegistrationPageTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.IFHTests.RegistrationPageTest@1fc2b765]" name="teardown" is-config="true" duration-ms="679" started-at="2022-06-14T14:30:01 IST" finished-at="2022-06-14T14:30:01 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.IFHTests.RegistrationPageTest@43738a82]" name="teardown" is-config="true" duration-ms="1380" started-at="2022-06-15T16:35:45 IST" finished-at="2022-06-15T16:35:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="endExtentReport()[pri:0, instance:com.IFHTests.RegistrationPageTest@1fc2b765]" name="endExtentReport" is-config="true" duration-ms="313" started-at="2022-06-14T14:30:01 IST" finished-at="2022-06-14T14:30:02 IST">
+        <test-method status="PASS" signature="endExtentReport()[pri:0, instance:com.IFHTests.RegistrationPageTest@43738a82]" name="endExtentReport" is-config="true" duration-ms="795" started-at="2022-06-15T16:35:47 IST" finished-at="2022-06-15T16:35:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExtentReport -->
