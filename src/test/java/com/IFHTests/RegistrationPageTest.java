@@ -8,10 +8,9 @@ import com.IFHPages.PersonalAccRegistrationPage;
 
 public class RegistrationPageTest extends BaseTest{
 	
-	@Parameters("URL")
 	@Test
-	public void PersonalAccRegistrationPageTest(String URL) throws Throwable {
-		new PersonalAccRegistrationPage().PersonalAccRegPage(URL);
+	public void PersonalAccRegistrationPageTest() throws Throwable {
+		new PersonalAccRegistrationPage().PersonalAccRegPage();
 	}
 	
 }

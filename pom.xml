@@ -102,8 +102,7 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<browser>${Browser}</browser>
-						<appURL>${URL} </appURL> 
+						<browser>${Browser}</browser> 
 					</systemPropertyVariables>
 
 				</configuration>

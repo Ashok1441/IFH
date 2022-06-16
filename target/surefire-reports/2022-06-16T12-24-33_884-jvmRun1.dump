@@ -1,4 +1,4 @@
-# Created at 2022-06-15T17:33:03.350
+# Created at 2022-06-16T12:24:36.123
 java.lang.NullPointerException
 	at com.BaseActionClass.Action.screenShot(Action.java:746)
 	at com.UtilityClass.ExtentManager.extent_AttachScreenShot(ExtentManager.java:51)
