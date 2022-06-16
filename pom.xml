@@ -103,7 +103,9 @@
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<browser>${Browser}</browser>
+						<appURL>${URL} </appURL> 
 					</systemPropertyVariables>
+
 				</configuration>
 			</plugin>
 		</plugins>

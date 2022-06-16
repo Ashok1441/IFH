@@ -755,6 +755,4 @@ public class Action extends BaseTest {
 		return currentDate;
 	}
 
-	
-
 }
