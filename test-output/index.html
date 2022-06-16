@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.IFHTests.RegistrationPageTest" hash-for-method="PersonalAccRegistrationPageTest">PersonalAccRegistrationPageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.IFHTests.RegistrationPageTest" hash-for-method="businessAccRegistrationPageTest">businessAccRegistrationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.IFHTests.RegistrationPageTest" hash-for-method="personalAccRegistrationPageTest">personalAccRegistrationPageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -127,9 +132,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="PersonalAccRegistrationPageTest">
-                  </a> <!-- PersonalAccRegistrationPageTest -->
-                  <span class="method-name">PersonalAccRegistrationPageTest</span>
+                  <a name="businessAccRegistrationPageTest">
+                  </a> <!-- businessAccRegistrationPageTest -->
+                  <span class="method-name">businessAccRegistrationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="personalAccRegistrationPageTest">
+                  </a> <!-- personalAccRegistrationPageTest -->
+                  <span class="method-name">personalAccRegistrationPageTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,11 +156,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.UtilityClass.MyListeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.IFHTests.RegistrationPageTest&quot;/&gt;
     &lt;/classes&gt;
@@ -190,16 +202,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'PersonalAccRegistrationPageTest')
+data.setCell(0, 1, 'businessAccRegistrationPageTest')
 data.setCell(0, 2, 'com.IFHTests.RegistrationPageTest')
-data.setCell(0, 3, 8662);
+data.setCell(0, 3, 32428);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'personalAccRegistrationPageTest')
+data.setCell(1, 2, 'com.IFHTests.RegistrationPageTest')
+data.setCell(1, 3, 26773);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -232,19 +248,31 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">launchApp(chrome)</span>
-                <span class="method-start">408 ms</span>
+                <span class="method-start">383 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">PersonalAccRegistrationPageTest</span>
-                <span class="method-start">4737 ms</span>
+                <span class="method-name">businessAccRegistrationPageTest</span>
+                <span class="method-start">6873 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">13407 ms</span>
+                <span class="method-start">39309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp(chrome)</span>
+                <span class="method-start">40072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">personalAccRegistrationPageTest</span>
+                <span class="method-start">41456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">68230 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">endExtentReport</span>
-                <span class="method-start">14439 ms</span>
+                <span class="method-start">69027 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
