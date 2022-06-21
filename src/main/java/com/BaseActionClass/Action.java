@@ -44,7 +44,7 @@ public class Action extends BaseTest {
 	public static void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
-		Log.info("Scrolled to given Element");
+//		Log.info("Scrolled to given Element");
 		ExtentManager.extent_Info("Scrolled to given Element");
 
 	}
@@ -56,9 +56,6 @@ public class Action extends BaseTest {
 
 	}
 	
-//	public static void click(WebDriver driver, WebElement ele) {
-//		ele.click();
-//	}
 	
 	public static boolean findElement(WebDriver driver, WebElement ele) {
 		boolean flag = false;
@@ -87,7 +84,6 @@ public class Action extends BaseTest {
 		if (flag) {
 			flag = ele.isDisplayed();
 			if (flag) {
-//				System.out.println("The element is Displayed");
 				Log.info("Element is Displayed");
 				ExtentManager.extent_Info("Element is Displayed");
 			} else {

@@ -38,8 +38,8 @@ public class AccRegistrationPage extends Config_Properties {
 
 		loadConfigValues();
 		Action.getUrl(REG_US_URL);
-		Action.explicitWaitForElement(BaseTest.driver, clickOnFAQsIcon, 20);
 		Action.click(businessRadioButton, "Click on Bussines Radio Button");
+		Action.explicitWaitForElement(BaseTest.driver, clickOnFAQsIcon, 20);
 		Action.click(clickOnFAQsIcon, "FAQs Icon");
 		Action.click(clickOnFAQs_1_Que, "FAQs 1st");
 		Action.click(clickOnSuerveyIcon, "Suervey Icon");

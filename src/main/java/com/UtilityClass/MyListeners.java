@@ -23,6 +23,7 @@ public class MyListeners implements ITestListener  {
 		ExtentManager.extent_Fail(result);
 		ExtentManager.extent_FailThrowable(result);
 		ExtentManager.extent_AttachScreenShot(result, "Failed");
+		Log.info("-------------------"+result+ " Is Failed---------------------------");
 		
 	}
 

@@ -5,17 +5,17 @@
     <listener class-name="com.UtilityClass.MyListeners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="com.IFHTests.RegistrationPageTest">
+      <class name="com.IFHTests.MySellingPageTest">
         <methods>
-          <include name="PersonalAccRegistrationPageTest"/>
           <include name="endExtentReport"/>
           <include name="extentReport"/>
           <include name="teardown"/>
           <include name="launchApp"/>
+          <include name="mySellingOver"/>
         </methods>
-      </class> <!-- com.IFHTests.RegistrationPageTest -->
+      </class> <!-- com.IFHTests.MySellingPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

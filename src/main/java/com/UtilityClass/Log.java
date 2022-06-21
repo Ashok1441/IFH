@@ -9,11 +9,11 @@ public class Log {
 //		public static Logger Log = Logger.getLogger(Log.class.getName());
 	private static Logger logger = LogManager.getLogger(Log.class.getName());
 		public static void startTestCase(String sTestCaseName){		  
-			logger.info("====================================="+sTestCaseName+" is started=========================================");
+			logger.info("=========================="+sTestCaseName+" is started=============================");
 			 }
 		
 		public static void endTestCase(String sTestCaseName){
-			logger.info("====================================="+sTestCaseName+" is ended=========================================");
+			logger.info("=========================="+sTestCaseName+" is ended===============================");
 			 }
 		
 		// Need to create below methods, so that they can be called  

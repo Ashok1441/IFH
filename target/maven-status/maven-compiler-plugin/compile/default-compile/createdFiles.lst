@@ -1,9 +1,10 @@
 com\BaseActionClass\Action.class
 com\BaseClass\Config_Properties.class
 com\UtilityClass\Log.class
+com\IFHPages\AccRegistrationPage.class
 com\UtilityClass\ExtentManager.class
-com\BaseClass\IAutoConsts.class
-com\BaseClass\FileLib.class
 com\UtilityClass\MyListeners.class
+com\BaseClass\IAutoConsts.class
+com\IFHPages\MySellinPage.class
+com\BaseClass\FileLib.class
 com\BaseClass\BaseTest.class
-com\IFHPages\PersonalAccRegistrationPage.class

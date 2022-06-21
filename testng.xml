@@ -4,11 +4,11 @@
 	<listeners>
 		<listener class-name="com.UtilityClass.MyListeners"></listener>
 	</listeners>
-  <!--<parameter name="Browser" value="chrome"></parameter> -->  
 	<test thread-count="5" name="Test">
-
+	<!-- 	<parameter name="Browser" value="chrome"></parameter> -->
 		<classes>
 			<class name="com.IFHTests.RegistrationPageTest" />
+			<class name="com.IFHTests.MySellingPageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
