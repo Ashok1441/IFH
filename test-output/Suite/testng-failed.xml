@@ -9,11 +9,11 @@
     <classes>
       <class name="com.IFHTests.MySellingPageTest">
         <methods>
+          <include name="mySellingOverview"/>
           <include name="endExtentReport"/>
           <include name="extentReport"/>
           <include name="teardown"/>
           <include name="launchApp"/>
-          <include name="mySellingOver"/>
         </methods>
       </class> <!-- com.IFHTests.MySellingPageTest -->
     </classes>

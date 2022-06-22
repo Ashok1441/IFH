@@ -11,6 +11,9 @@ public class Config_Properties implements IAutoConsts{
 	protected static String REG_UK_URL;
 	protected static String REG_AU_URL;
 	protected static String MYS_OVERVEW;
+	protected static String MYS_ACTIVE;
+	protected static String MYS_UNSOLD;
+	protected static String MYS_SOLD;
 	
 	
 	public static void loadConfigValues() throws Throwable {
@@ -24,5 +27,8 @@ public class Config_Properties implements IAutoConsts{
 		 REG_UK_URL = new FileLib().readProprertyData(Prop_Path, "reg_uk_url");
 		 REG_AU_URL = new FileLib().readProprertyData(Prop_Path, "reg_au_url");
 		 MYS_OVERVEW = new FileLib().readProprertyData(Prop_Path, "mys_overview");
+		 MYS_ACTIVE =new FileLib().readProprertyData(Prop_Path, "mys_active");
+		 MYS_UNSOLD =new FileLib().readProprertyData(Prop_Path, "mys_unsold");
+		 MYS_SOLD =new FileLib().readProprertyData(Prop_Path, "mys_sold");
 	}
 }
